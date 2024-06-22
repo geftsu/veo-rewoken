@@ -11,7 +11,7 @@
 	<content contentuid="h4cdeeb21g2714g4069ga055ga6a0895b4a1f" version="1">Searing Strike</content>
 	<content contentuid="h979018e5g2e8dg4e3cga824ge93ed0f3dfa0" version="1">Slice into an enemy, dealing [1] + an additional [3] to them, while you yourself take [2].</content>
 	<content contentuid="h9ef5acd7g99e4g487ag8357gbc153e41377c" version="1">Dolor Maior</content>
-	<content contentuid="h7423839cg7466g49cdg89f6g56362c8787a9" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon, its critical damage is rolled twice and added together.</content>
+	<content contentuid="h7423839cg7466g49cdg89f6g56362c8787a9" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon, you roll an extra damage die as well as the normal additional critical die. This effect stacks with &lt;LSTag Type="Passive" Tooltip="BrutalCritical"&gt;Brutal Critical&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="SavageAttacks"&gt;Savage Attacks&lt;/LSTag&gt;</content>
 	<content contentuid="h418cacd3g4b80g498eg8c02g6873654aa918" version="1">Force Slam</content>
 	<content contentuid="hc58937a4g575cg4cb5ga321gf2d1e2b2b18f" version="1">Slam your weapon into the ground, impacting nearby foes and possibly pushing them away.</content>
 	<content contentuid="hc0346051ge53bg4981g8d77g56af7d1517f6" version="1">Lightning Strike</content>

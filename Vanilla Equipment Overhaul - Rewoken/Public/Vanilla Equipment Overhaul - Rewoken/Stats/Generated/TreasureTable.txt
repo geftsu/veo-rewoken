@@ -1,0 +1,123 @@
+
+new treasuretable "Legendary_DualWielder_Treasure"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_PHB_ScarabOfProtection_Amulet",1,0,0,0,0,0,0,0
+
+new treasuretable "Steel_Foundry_Boss"
+CanMerge 1
+new subtable "-1"
+object category "I_WPN_Watcher_Greatsword_Human",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_KC_LavaElemental"
+CanMerge 1
+new subtable "-1"
+object category "I_WPN_Scimitar_Lava_Elemental",1,0,0,0,0,0,0,0
+
+new treasuretable "Gnome_Kill_Quest"
+new subtable "-1"
+object category "I_WPN_Watcher_Ballista",1,0,0,0,0,0,0,0
+
+new treasuretable "Spare_Lyrthindor_Quest"
+new subtable "-1"
+object category "I_WPN_Orthon_Greatsword",1,0,0,0,0,0,0,0
+
+new treasuretable "SCL_DarkShamblingMound"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_Critical_CriticalCombo_BattleAxe",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_Bulette"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_LC_Frigid_Trident",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Sarevok_Treasure"
+CanMerge 1
+new subtable "-1"
+object category "I_UNI_ARM_Sarevok_Armor",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_MagicItem_Gith_Trader"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_LC_ChainDevil_Flail",1,0,0,0,0,0,0,0
+
+new treasuretable "Capture_Isobel_Reward"
+new subtable "-1"
+object category "I_MAG_TheClover_Scimitar",1,0,0,0,0,0,0,0
+
+new treasuretable "SHA_HiddenRoom_Magic_Chest"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_BG_OfSpeed_LightCrossbow",1,0,0,0,0,0,0,0
+
+new treasuretable "SHA_NightsongReward"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Nightsong_Armor",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Circus_KoboldMerchant_Magic"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_Hat_Circushat",1,0,0,0,0,0,0,0
+
+new treasuretable "Alpha_Mastiff"
+new subtable "-1"
+object category "I_MAG_Shadow_Battleaxe",1,0,0,0,0,0,0,0
+
+new treasuretable "Dying_Thug_Longsword"
+new subtable "-1"
+object category "I_MAG_LC_Fleshred_Longsword",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_KurwinCoffin_BuriedManCasket"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_Vampiric_Gloves",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Circus_Sculptor"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_BG_Gargoyle_Boots",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_Axemaster_Buried_Chest"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_ZOC_ForceConduitWhileSurounded_Boots",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_MAG_ZOC_RampartAura_Amulet",1,0,0,0,0,0,0,0
+
+new treasuretable "Florrick_Haven_Reward"
+new subtable "-1"
+object category "I_MAG_ChargedLightning_EnsnaringShock_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable "HagDead_Ring_Reward"
+new subtable "-1"
+object category "I_HAG_HagsRing",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_InfernalTrader_Trade"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_LowHP_IncreasedSpellDamage_Amulet",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_RamazithsTower_Lorroakan_NightsongReward"
+CanMerge 1
+new subtable "-1"
+object category "I_ARM_Nightsong_Helmet_Reward",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_ARM_Nightsong_Armor_Reward",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_ARM_Nightsong_Gloves_Reward",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_ARM_Nightsong_Boots_Reward",1,0,0,0,0,0,0,0
+
+new treasuretable "DEN_Stargazer"
+CanMerge 1
+new subtable "-1"
+object category "I_UNI_SHA_SandthiefsRing",1,0,0,0,0,0,0,0
+
+new treasuretable "SHA_LastJusticiar_Treasure"
+CanMerge 1
+new subtable "-1"
+object category "I_UNI_Nightsinger_HalfPlate",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_MAG_Shadow_Shadowstep_Boots",1,0,0,0,0,0,0,0

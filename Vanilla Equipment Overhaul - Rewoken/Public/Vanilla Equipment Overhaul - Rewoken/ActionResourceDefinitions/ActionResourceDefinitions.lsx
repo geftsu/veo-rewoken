@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="h4759d08eg3f42g4ec7gb0c9g149d2487783a" version="1" />
+          <attribute id="IsHidden" type="bool" value="true" />
+          <attribute id="Name" type="FixedString" value="Interrupt_ProtectionFromMissiles" />
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+          <attribute id="UUID" type="guid" value="041ae283-7643-44cd-830c-d81ddc343b68" />
+        </node>
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="h4759d08eg3f42g4ec7gb0c9g149d2487783a" version="1" />
+          <attribute id="IsHidden" type="bool" value="true" />
+          <attribute id="Name" type="FixedString" value="QuickenedFireCharge" />
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+          <attribute id="UUID" type="guid" value="1bafe4de-3121-488f-943b-1f4321cec27e" />
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

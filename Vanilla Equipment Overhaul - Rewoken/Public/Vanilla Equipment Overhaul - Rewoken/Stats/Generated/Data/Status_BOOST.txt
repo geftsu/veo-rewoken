@@ -1,0 +1,241 @@
+new entry "REPELLING_BLAST_TRIGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5139ae45g8a79g4cf6ga0ffgd4508a3be508;2"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "ARMOR_OF_AVERNUS_3"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h8be2876fg0f88g4b38g8470g146719388c8c;1"
+data "Description" "h1974d24agca8cg4136gb86bge57ad362662b;3"
+data "DescriptionParams" "15;DealDamage(5, Fire)"
+data "Icon" "Spell_Abjuration_ProtectionFromEnergy_Fire"
+data "SoundLoop" "Spell_Status_FireShieldWarm_MO"
+data "SoundStop" "Spell_Status_FireShieldWarm_MO_Stop"
+data "StackId" "TEMPORARY_HP"
+data "StackPriority" "15"
+data "Boosts" "TemporaryHP(15)"
+data "Passives" "ArmorOfAvernus_3"
+data "RemoveConditions" "not HasTemporaryHP()"
+data "RemoveEvents" "OnDamage"
+data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('ARMOR_OF_AVERNUS_3')):ApplyStatus(AI_HELPER_BUFF,100,1)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "a25f92a9-7078-4a5f-8648-c0bb9f4fee39"
+
+new entry "ARMOR_OF_AVERNUS_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ARMOR_OF_AVERNUS_3"
+data "DescriptionParams" "30;DealDamage(10, Fire)"
+data "StackId" "TEMPORARY_HP"
+data "StackPriority" "30"
+data "Boosts" "TemporaryHP(30)"
+data "Passives" "ArmorOfAvernus_6"
+data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('ARMOR_OF_AVERNUS_6')):ApplyStatus(AI_HELPER_BUFF,100,1)"
+
+new entry "AVERNUS_ARMOR_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hedaee65eg1273g4f07ga627gd08b45216bca;1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "OnRemoveFunctors" "RemoveStatus(ARMOR_OF_AVERNUS_3);RemoveStatus(ARMOR_OF_AVERNUS_6)"
+
+new entry "PASSIVE_AVERNUS_ARMOR"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "DisplayName" "hedaee65eg1273g4f07ga627gd08b45216bca;1"
+data "StatusEffect" "6071a665-c710-4f82-9c6a-c81d22bee8b3"
+
+new entry "PASSIVE_AVERNUS_ARMOR_ATTACKER"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "DisplayName" "h42a54efegdfadg4dfbg98f7g81c9fc0687e7;1"
+data "StatusEffect" "6d0e83ab-9a72-472e-94d4-954fdf50d007"
+
+new entry "CRE_COMBAT_INSTRUCTION_BALLISTA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4e85f79bgb159g4301gb12cg4ff804e7b126;2"
+data "Description" "habee1482gbb49g4b00gbca2gef9bd53c3622;5"
+data "DescriptionParams" "GainTemporaryHitPoints(20);DealDamage(1d6, Psychic)"
+data "Icon" "GenericIcon_Intent_Buff"
+data "StackId" "CRE_COMBAT_INSTRUCTION"
+data "Boosts" "CharacterWeaponDamage(1d6, Psychic); TemporaryHP(20)"
+data "RemoveConditions" "not HasTemporaryHP()"
+data "RemoveEvents" "OnDamage"
+data "StatusEffect" "3e49f149-7477-4bb4-af1e-8a984d5f5573"
+
+new entry "BOOTS_FIRE_INFUSION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_SPELLBLADE_FIRE_ENERGY"
+data "DisplayName" "hc67d7862g3809g4d9dgb20cg2688f0f78cd0;1"
+data "DescriptionParams" "DealDamage(2, Fire)"
+data "StackId" "BOOTS_FIRE_INFUSION"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(2, Fire)"
+
+new entry "BOOTS_COLD_INFUSION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_SPELLBLADE_COLD_ENERGY"
+data "DisplayName" "hc67d7862g3809g4d9dgb20cg2688f0f78cd0;1"
+data "DescriptionParams" "DealDamage(2, Cold)"
+data "StackId" "BOOTS_FIRE_INFUSION"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(2, Cold)"
+
+new entry "MAG_BHAALIST_AURA_OF_MURDER_SLASH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "AURA_OF_MURDER_BUFF"
+data "Icon" "PassiveFeature_Generic_Death"
+data "StillAnimationType" ""
+data "StillAnimationPriority" ""
+data "SoundVocalStart" ""
+data "StackId" "MAG_BHAALIST_AURA_OF_MURDER_SLASH"
+data "Boosts" "Resistance(Slashing, Vulnerable)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "StatusGroups" ""
+
+new entry "MAG_CHARGED_LIGHTNING_ENSNARING_SHOCK_OVERHAUL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_CHARGED_LIGHTNING_ENSNARING_SHOCK"
+data "DescriptionParams" "2;DealDamage(1d6,Lightning)"
+data "Passives" "MAG_ChargedLightning_EnsnaringShock_Passive_Overhaul"
+
+new entry "MAG_UNDEAD_FEAR_STRIKES"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h21158d2bgc192g40dcg88acg24659fa3486a;1"
+data "Description" "h0b8287e5g290eg4495g923fg408e3468cf86;1"
+data "DescriptionParams" "DealDamage(Cause.CharismaModifier,Necrotic)"
+data "Icon" "Action_Paladin_InquisitorsMight"
+data "StackId" "MAG_UNDEAD_FEAR_STRIKES"
+data "TickType" "StartTurn"
+data "Boosts" "CharacterWeaponDamage(max(0,Cause.CharismaModifier),Necrotic)"
+data "Passives" "Oathbreaker_Undead_Fear_Strikes"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "8e552222-ee55-49ba-9913-79ac50ce4d37"
+
+new entry "UNARMED_HARM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "haaf2a34bg6a9fg48ffg9facgf2908f95cda4;1"
+data "Description" "h8b29a6begda27g4a61ga91bga876aa874ff8;1"
+data "DescriptionParams" "RegainHitPoints(1d4)"
+data "Icon" "Spell_Necromancy_Harm"
+data "StackId" "UNARMED_HARM"
+data "StackType" "Additive"
+data "StillAnimationType" "Weakened"
+data "StillAnimationPriority" "Weakened"
+data "Boosts" "IncreaseMaxHP(-1d4)"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;ApplyToDead;MultiplyEffectsByDuration;FreezeDuration"
+data "StatusGroups" "SG_Disease"
+data "StatusEffect" "a345df07-737e-4217-af24-8bba7faef78b"
+
+new entry "UNARMED_HARM_APPLY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "haaf2a34bg6a9fg48ffg9facgf2908f95cda4;1"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "OnApplyFunctors" "ApplyStatus(UNARMED_HARM, 100, 1);ApplyStatus(UNARMED_HARM_REMOVER, 100, 3)"
+
+new entry "UNARMED_HARM_REMOVER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "haaf2a34bg6a9fg48ffg9facgf2908f95cda4;1"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "OnRemoveFunctors" "RemoveStatus(UNARMED_HARM)"
+
+new entry "RADIANT_RESIST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h96fa1037gcc1cg44f3ga42dg77248009e99a;1"
+data "Description" "h33ffbec3g4fe0g4b5bga32cgc8f603fcd9f1;1"
+data "DescriptionParams" "DealDamage(,Radiant);DealDamage(,Necrotic)"
+data "Icon" "GenericIcon_DamageType_Radiant"
+data "StackId" "RADIANT_RESIST"
+data "StackType" "Overwrite"
+data "Boosts" "Resistance(Radiant, Resistant);Resistance(Necrotic, Vulnerable)"
+
+new entry "NECROTIC_RESIST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "had1b841egdf66g46c6ga925gf72095fc73d7;1"
+data "Description" "h33ffbec3g4fe0g4b5bga32cgc8f603fcd9f1;1"
+data "DescriptionParams" "DealDamage(,Radiant);DealDamage(,Necrotic)"
+data "Icon" "GenericIcon_DamageType_Necrotic"
+data "StackId" "RADIANT_RESIST"
+data "StackType" "Overwrite"
+data "Boosts" "Resistance(Necrotic, Resistant);Resistance(Radiant, Vulnerable)"
+
+new entry "MAG_FLORRICK_LIGHTNING_ONCOMBATSTART_APPLIER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h05d92105gb513g4111g9b38g4b5c1a178e0c;3"
+data "StackId" "MAG_FLORRICK_LIGHTNING_ONCOMBATSTART_APPLIER"
+data "TickType" ""
+data "TickFunctors" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+new entry "MAG_FLORRICK_ONCOMBATSTART_DOONCE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hed725be9g6733g4debgb648g03ad4277f851;3"
+data "StackId" "MAG_FLORRICK_ONCOMBATSTART_DOONCE_TECHNICAL"
+data "RemoveConditions" "not Combat()"
+data "RemoveEvents" "OnTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+new entry "FLY_MOVEMENT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5139ae45g8a79g4cf6ga0ffgd4508a3be508;2"
+data "Boosts" "ActionResource(Movement,6,0)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+new entry "MAG_FIRE_DIPPED_HELLFIRE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FIRE_ALWAYS_DIPPED_FIRE"
+data "DisplayName" "h20b95e68g2f1eg4cddg826ag59ca98b8ff30;2"
+data "Description" "haec66743g30ebg488cg9271ge898cd09d503;3"
+data "Boosts" "WeaponDamage(1d6, Fire);IgnoreResistance(Fire,Resistant)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4b33a535-59a8-6592-ba5d-e5da4b7d6b87" />
+					<attribute id="DefaultDialog" type="FixedString" value="0a906b91-6c42-48d4-17b9-9cf7ff5f2fce" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf70a4c0fg47a8g42b4gacaag17414f065d00" version="2" />
+					<attribute id="Faction" type="guid" value="b1e6d3e0-77ae-472c-9839-d694572a5a50" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="4b33a535-59a8-6592-ba5d-e5da4b7d6b87-EQP_Longsword_ScaleMail_Shield_(Icon_Human_Male)" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="BGO_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="b9ff6ee5-b7d1-4bed-af3b-eb6c39dcd169" />
+					<attribute id="Name" type="LSString" value="S_GLO_SmugglersCave_DyingAttacker" />
+					<attribute id="TemplateName" type="FixedString" value="d3b7cade-c52e-47dc-816d-067c00d08f37" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGO_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="a5d2e442-4fe3-f147-ca38-b071adb584d1" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="9ca0f442-8702-3130-c35e-8b1a6bd2ee34" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="8a0cd692-9e83-0f04-ff2a-fae5772d1cc8" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="WYR_SMUGGLER_DYING" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="BG_Bandit" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-141.0818 3.900895 72.94924" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.7692017 0 0.6390061" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Dying_Thug_Longsword" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

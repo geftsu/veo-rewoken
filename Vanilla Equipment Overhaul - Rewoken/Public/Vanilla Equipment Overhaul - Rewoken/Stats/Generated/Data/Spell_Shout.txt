@@ -1,0 +1,65 @@
+new entry "Shout_ArmorOfAvernus_3"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+data "SpellSchool" "Abjuration"
+data "Cooldown" "OncePerShortRest"
+data "SpellProperties" "ApplyStatus(ARMOR_OF_AVERNUS_3, 100, -1)"
+data "TargetConditions" "Self()"
+data "Icon" "Spell_Abjuration_ProtectionFromEnergy_Fire"
+data "DisplayName" "h8be2876fg0f88g4b38g8470g146719388c8c;1"
+data "Description" "heea14812g2795g470agb4efg3aa68b5fcdc3;1"
+data "DescriptionParams" "GainTemporaryHitPoints(15);DealDamage(5,Fire)"
+data "TooltipStatusApply" "ApplyStatus(ARMOR_OF_AVERNUS_3, 100, -1)"
+data "TooltipPermanentWarnings" "8892b93b-721f-4b99-b9b4-05ac25aadb33"
+data "CastSound" "Spell_Cast_Utility_FireshieldWarm_L4to5"
+data "TargetSound" "Spell_Impact_Utility_FireshieldWarm_L4to5"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500,,;10caea0e-c949-4d91-8ab7-3b50019dd054,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent"
+data "HitAnimationType" "MagicalNonDamage"
+data "MemoryCost" "1"
+data "PrepareEffect" "ab9a9a13-7ceb-46ee-bd9e-74c044516fb1"
+data "CastEffect" "859bdcb8-c4dc-487d-8e44-452b1be1c034"
+
+new entry "Shout_ArmorOfAvernus_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_ArmorOfAvernus_3"
+data "Level" "6"
+data "SpellProperties" "ApplyStatus(ARMOR_OF_AVERNUS_6, 100, -1)"
+data "DescriptionParams" "GainTemporaryHitPoints(30);DealDamage(10,Fire)"
+data "TooltipStatusApply" "ApplyStatus(ARMOR_OF_AVERNUS_6, 100, -1)"
+
+new entry "Shout_SiegeEquipment"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SteadyRanged"
+data "Cooldown" "OncePerTurn"
+data "SpellProperties" "ApplyStatus(STEADY_RANGED,100,1)"
+data "DisplayName" "h6a4f4f5fgc930g4930gb4fcg169ba8ff1b8a;1"
+data "TooltipStatusApply" "ApplyStatus(STEADY_RANGED,100,1)"
+data "UseCosts" "Movement:7.5"
+
+new entry "Shout_SiegeEquipment_Heavy"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SteadyRanged"
+data "Cooldown" "OncePerTurn"
+data "SpellProperties" "ApplyStatus(STEADY_RANGED_CROSSBOW,100,1)"
+data "DisplayName" "h6a4f4f5fgc930g4930gb4fcg169ba8ff1b8a;1"
+data "TooltipStatusApply" "ApplyStatus(STEADY_RANGED_CROSSBOW,100,1)"
+data "UseCosts" "Movement:7.5"
+
+
+
+
+
+
+
+
+

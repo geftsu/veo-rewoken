@@ -1,0 +1,17 @@
+new entry "NIGHTSINGER_GASEOUS_FORM"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "GASEOUS_FORM"
+
+
+
+
+
+
+
+
+
+
+
+
+

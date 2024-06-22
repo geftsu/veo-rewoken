@@ -1,0 +1,49 @@
+new entry "Projectile_MAG_ChargedLightning_EnsnaringShock_Explosion_Overhaul"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_MAG_ChargedLightning_EnsnaringShock_Explosion"
+data "SpellProperties" "DealDamage(1d6,Lightning,Magical);SetStatusDuration(MAG_CHARGED_LIGHTNING_ENSNARING_SHOCK_OVERHAUL,-1,Add);"
+
+new entry "Projectile_CursedTome_Dethrone_Armor"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_CursedTome_Dethrone"
+data "Requirements" "Combat"
+data "UseCosts" "ActionPoint:1"
+
+new entry "Projectile_FireBolt_Debug"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_FireBolt"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, 14)"
+data "SpellSuccess" "DealDamage(max(0,(CharismaModifier+ClassLevel(Warlock))), Fire, Magical)"
+data "SpellFail" "DealDamage(max(0,(CharismaModifier+ClassLevel(Warlock))/2), Fire, Magical)"
+
+new entry "Projectile_EldritchBlast"
+type "SpellData"
+using "Projectile_EldritchBlast"
+data "SpellSuccess" "DealDamage(1d10,Force,Magical);IF(HasStatus('REPELLING_BLAST_TRIGGER',context.Source)):Force(4.5)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,231 @@
+new equipment "DEN_TieflingLeader"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_FlamingFist_FlamingBlade"
+add equipmentgroup
+add equipment entry "WPN_HeavyCrossbow"
+add equipmentgroup
+add equipment entry "ARM_RingMail_Body_2"
+
+new equipment "EQP_Blacksmith_Scimitar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Blacksmith_FlameBlade"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "GOB_DrowCommander"
+add equipmentgroup
+add equipment entry "GOB_DrowCommander_Mace"
+add equipmentgroup
+add equipment entry "ARM_Shield_Broken"
+add equipmentgroup
+add equipment entry "GOB_DrowCommander_Leather_Armor_2"
+add equipmentgroup
+add equipment entry "GOB_DrowCommander_Leather_Gloves"
+add equipmentgroup
+add equipment entry "MAG_Paladin_MomentumOnConcentration_Boots"
+add equipmentgroup
+add equipment entry "ARM_Camp_Body_Minthara"
+add equipmentgroup
+add equipment entry "ARM_Camp_Shoes_Minthara"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "ARM_Underwear_Minthara"
+
+new equipment "EQP_Assassin_Target"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "SHA_SandthiefsRing"
+
+new equipment "GOB_GoblinKing_Warhammer"
+add equipmentgroup
+add equipment entry "GOB_GoblinKing_Warhammer"
+add equipmentgroup
+add equipment entry "MAG_WYRM_SleepImmunity_Amulet"
+
+new equipment "EQP_Florrick"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Torch_Purple"
+add equipmentgroup
+add equipment entry "WPN_Torch_Purple"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "Florrick_Robe"
+add equipmentgroup
+add equipment entry "Florrick_Boots"
+
+new equipment "EQP_Greatclub"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Rath_Morningstar"
+
+new equipment "EQP_Aradin_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_Dawn_Morningstar"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Cerys_ScaleMail"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow_2"
+add equipmentgroup
+add equipment entry "MAG_Bonded_Throwing_Battleaxe"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "MOO_PrisonWarden"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HeavyCrossbow_1"
+add equipmentgroup
+add equipment entry "ARM_HalfPlate_Body"
+add equipmentgroup
+add equipment entry "MAG_MM_Sorcery_SeekingSpell_Gloves"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+
+new equipment "EQP_MasterOfSouls_Colony"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_Zhentarim_BloodfeederBlade_Rapier"
+add equipmentgroup
+add equipment entry "MAG_Illithid_MindTax_Amulet"
+add equipmentgroup
+add equipment entry "MAG_Critical_BolsteringCritical_Armor"
+
+new equipment "GLO_Gith_Captain"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_LowHP_IncreaseDamagePsychic_GithGreatsword"
+add equipmentgroup
+add equipment entry "ARM_HalfPlate_Body_Githyanki_Worn"
+
+new equipment "CRE_CrecheTeacher"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Gith_HeavyCrossbow_Ballista"
+add equipmentgroup
+add equipment entry "ARM_HalfPlate_Body_Githyanki"
+
+new equipment "WYR_Djinni_Circus"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Djinni_Scimitar_Circus"
+add equipmentgroup
+add equipment entry "WPN_Djinni_Scimitar_Circus"
+
+new equipment "SHA_Justiciar_Scimitar_Shar_Shield_Shar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Scimitar_Shar"
+add equipmentgroup
+add equipment entry "ARM_Shar_Shield"
+add equipmentgroup
+add equipment entry "UNI_Nightsinger_HalfPlate"
+add equipmentgroup
+add equipment entry "MAG_Shadow_Shadowstep_Boots"
+
+new equipment "EQP_Duergar_KingsKnife_RingMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Duergar_Shortsword_KingsKnife"
+add equipmentgroup
+add equipment entry "ARM_RingMail_Body_2"
+
+new equipment "MOO_Executioner"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_Bonded_Lethal_Longsword"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
+add equipmentgroup
+add equipment entry "MAG_Absolute_Protecter_Shield"
+add equipmentgroup
+add equipment entry "MAG_Critical_ArcanicCritical_Gloves"
+
+new equipment "EQP_Longbow_Zhentarim"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "MAG_Mobility_SprintForMomentum_ChainShirt"
+
+new equipment "EQP_Duergar_Hammer_B_Leather_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_LightHammer_B"
+add equipmentgroup
+add equipment entry "WPN_LightHammer_B"
+add equipmentgroup
+add equipment entry "MAG_LowHP_CounterOnDamage_ChainShirt"
+
+new equipment "EQP_GreatAxe_C_HalfPlate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_Enforcer_NonLethalFright_Club"
+add equipmentgroup
+add equipment entry "MAG_Enforcer_NonLethalBlessing_Shield"
+add equipmentgroup
+add equipment entry "MAG_Enforcer_RejunevatingKnock_Helmet"
+add equipmentgroup
+add equipment entry "ARM_HalfPlate_Body"
+
+new equipment "SCL_VlaakithAvatar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword_Gith"
+add equipmentgroup
+add equipment entry "MAG_ZOC_Force_Helmet"
+add equipmentgroup
+add equipment entry "MAG_Githborn_MagicEating_HalfPlate"
+
+new equipment "UND_KC_Nere"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "UND_Nere_Sword"
+add equipmentgroup
+add equipment entry "MAG_LC_DrowSpider_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "EQP_UmberleePriest_Sickle_Magical"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_LC_Umberlee_Cold_Sickle"
+add equipmentgroup
+add equipment entry "MAG_LC_Umberlee_Regeneration_Boots"
+
+new equipment "GLO_Oathbreaker_Paladin"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Oathbreaker_Battleaxe"
+add equipmentgroup
+add equipment entry "MAG_Bonded_Shield"
+add equipmentgroup
+add equipment entry "MAG_Oathbreaker_Helmet"
+add equipmentgroup
+add equipment entry "MAG_Oathbreaker_Platemail"
+add equipmentgroup
+add equipment entry "MAG_Oathbreaker_Gloves"
+add equipmentgroup
+add equipment entry "MAG_Oathbreaker_Boots"
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hfbfcc0b7g6d6bg4595gb050gfff57f853ca3" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsTradable" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="BGO_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="e7ed5cd0-4ae7-4fc4-aa58-7d5c7b2ad0f0" />
+					<attribute id="Name" type="LSString" value="WPN_Djinni_Scimitar_Circus" />
+					<attribute id="TemplateName" type="FixedString" value="96f7647b-7485-4c0c-aaad-73a332d8e626" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566828" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGO_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="a5d2e442-4fe3-f147-ca38-b071adb584d1" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="e37c9657-9dc2-adae-db91-a08225583c88" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c0768bf9-2cad-efb2-51d9-78af7838cc5b" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-71.76801 45.44908 -73.51349" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

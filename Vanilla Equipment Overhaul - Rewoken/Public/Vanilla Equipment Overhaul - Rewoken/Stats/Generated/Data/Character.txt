@@ -1,0 +1,54 @@
+new entry "GLO_CounsellorFlorrick"
+type "Character"
+using "Elf_Caster"
+data "Strength" "12"
+data "Dexterity" "14"
+data "Constitution" "13"
+data "Wisdom" "11"
+data "Charisma" "16"
+data "Vitality" "44"
+data "XPReward" "4ee02692-eb98-43a6-803f-2da645364568"
+data "Passives" "AttackOfOpportunity;Elf_WeaponTraining;FeyAncestry;DarknessRules;Darkvision;Resilient_Constitution"
+
+new entry "DEN_Refugees_Tiefling_Ranger"
+type "Character"
+using "Tiefling_Ranger"
+data "Strength" "9"
+data "Dexterity" "18"
+data "Constitution" "16"
+data "Intelligence" "11"
+data "Wisdom" "15"
+data "Charisma" "10"
+data "Vitality" "46"
+data "Passives" "FightingStyle_Archery;Tiefling_HellishResistance;AttackOfOpportunity;DarknessRules;Darkvision"
+
+new entry "GLO_Oathbreaker_Paladin"
+type "Character"
+using "_Undead"
+data "Strength" "20"
+data "Dexterity" "13"
+data "Constitution" "17"
+data "Wisdom" "15"
+data "Charisma" "18"
+data "Vitality" "350"
+data "XPReward" "4ee02692-eb98-43a6-803f-2da645364568"
+data "StepsType" "Metal"
+data "SpellCastingAbility" "Charisma"
+data "Passives" "Alert;AttackOfOpportunity;DarknessRules;Darkvision;ExtraAttack;TurnResistance;FightingStyle_Dueling;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;"
+data "BludgeoningResistance" "Resistant"
+data "SlashingResistance" "Resistant"
+data "PiercingResistance" "Resistant"
+data "NecroticResistance" "Resistant"
+data "PoisonResistance" "Resistant"
+data "Progressions" "8726b2c4-edc0-4905-b82f-60a4baba0733"
+data "Proficiency Group" "HeavyArmor;MartialWeapons;MediumArmor;SimpleWeapons;Shields;LightArmor"
+
+
+
+
+
+
+
+
+
+

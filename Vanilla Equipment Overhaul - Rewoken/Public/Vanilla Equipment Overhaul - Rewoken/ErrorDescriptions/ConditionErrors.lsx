@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="ConditionErrors">
+        <node id="root">
+            <children>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h537cd117ga1d0g4ca3g9529g1aeee5433703" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_Interrupt_ProtectionFromMissiles_False"/>
+                    <attribute id="UUID" type="guid" value="05d2da5a-1c89-4095-a8be-c13ab35fd4f6"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h537cd117ga1d0g4ca3g9529g1aeee5433703" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_Status_MISTY_STEP_COOLDOWN_True"/>
+                    <attribute id="UUID" type="guid" value="6a564d6b-884c-4e8b-b990-ed0abc6fef30"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

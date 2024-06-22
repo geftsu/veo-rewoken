@@ -1,0 +1,9 @@
+function ProficiencyBonusIs(number)
+    local entity = context.Source
+    return ConditionResult(entity.ProficiencyBonus == number)
+end
+
+function ProficiencyBonusIsGreaterOr(number)
+    local entity = context.Source
+    return ConditionResult(entity.ProficiencyBonus >= number)
+end

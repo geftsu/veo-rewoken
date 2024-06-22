@@ -122,24 +122,6 @@ data "TargetConditions" "CanStand('60933e69-c642-46e0-92ee-0e4353fc2adf') and no
 data "DisplayName" "h1edc9ec8g6732g4ae8gb35dg79f34af9ac84;1"
 data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 new entry "Target_MAG_Illithid_MindTax_Overhaul"
 type "SpellData"
 data "SpellType" "Target"

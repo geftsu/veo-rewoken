@@ -931,9 +931,8 @@ new entry "ARM_Hat_Wizard_B"
 type "Armor"
 using "ARM_Hat_Wizard_A"
 data "RootTemplate" "65f78de8-f6aa-4080-84de-73e654b02883"
-dara "Rarity" "Uncommon"
+data "Rarity" "Uncommon"
 data "Boosts" "ActionResource(Movement,1.5,0)"
-
 
 new entry "UNI_ARM_Sarevok_Horned_Helmet"
 type "Armor"
@@ -1932,7 +1931,7 @@ type "Armor"
 using "MAG_OfFeywildSparks_Ring"
 data "RootTemplate" "a4813d7b-2ff0-488b-8152-a27cb75e8d8e"
 data "Boosts" ""
-data "PassivesOnEquip" MAG_SpellSaveDC_Enchantment_Lesser_Passive;MAG_FeyWildSpark_WildMagic_Passive"
+data "PassivesOnEquip" "MAG_SpellSaveDC_Enchantment_Lesser_Passive;MAG_FeyWildSpark_WildMagic_Passive"
 
 new entry "MAG_Fire_IncreasedDamage_Ring"
 type "Armor"
@@ -2433,12 +2432,6 @@ using "MAG_TWN_Surgeon_ParalyzingCritical_Amulet"
 data "RootTemplate" "d6db1ae8-8e8e-49d1-8968-5cdb7fa3a02a"
 data "PassivesOnEquip" "MAG_TWN_Surgeon_ParalyzingCritical_Passive_Overhaul"
 
-new entry "MAG_Illithid_MindTax_Amulet"
-type "Armor"
-using "MAG_Illithid_MindTax_Amulet"
-data "RootTemplate" "28daf3e2-18c6-479d-82f6-54041596980e"
-data "Boosts" "UnlockSpell(Target_MAG_Illithid_MindTax_Overhaul)"
-
 new entry "ARM_HAG_Phylactery"
 type "Armor"
 using "ARM_HAG_Phylactery"
@@ -2695,24 +2688,6 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "BoostContext" "OnEquip;OnCreate"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // === Interrupt.txt ===
 new entry "Interrupt_AbsorbSpell_Passive"
 type "InterruptData"
@@ -2856,10 +2831,6 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_ShieldBlow_Riposte"
 data "AlternativeCastTextEvents" ""
-
-
-
-
 
 // === Passive.txt ===
 new entry "MAG_ShieldRiposte_Passive_Testing"
@@ -3278,7 +3249,7 @@ data "Description" "h227e44d8g0e12g44f2gb989gb7eeaf25a5ba;2"
 data "DescriptionParams" "2;DealDamage(max(DexterityModifier,StrengthModifier), Piercing)"
 data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsMeleeAttack() and (IsHit() or IsCritical()) and not IsMiss() and not IsCriticalMiss()"
-data "StatsFunctors" "DealDamage(SWAP, max(0,(DexterityModifier,StrengthModifier)), Piercing)"
+data "StatsFunctors" "DealDamage(SWAP, max(0, max(DexterityModifier,StrengthModifier)), Piercing)"
 
 new entry "MAG_PHB_Illithid_Armor_Passive"
 type "PassiveData"
@@ -6992,31 +6963,6 @@ data "UseCosts" "ActionPoint:1;BonusActionPoint:1"
 data "RootSpellID" ""
 data "PowerLevel" ""
 
-new entry "Target_MAG_Illithid_MindTax_Overhaul"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_CharmPerson"
-data "Level" ""
-data "SpellSchool" ""
-data "Cooldown" ""
-data "SpellProperties" "DealDamage(1d10, Psychic); ApplyStatus(SELF, MAG_TEMPORARY_HP_8, 100, -1)"
-data "SpellRoll" ""
-data "SpellSuccess" ""
-data "TargetConditions" "(HasStatus('SG_Charmed') or HasStatus('SG_Frightened')) and not Self() and Character() and not (not Player(context.Source) and IsCrowdControlled(context.Target)) "
-data "Icon" "Action_Mag_Illithid_MindTax"
-data "DisplayName" "hb3b011a2g49d7g4204g989agd81aef46efc6;2"
-data "Description" "hacf0c0d8g9a6bg46c0g9912g09eeed730849;5"
-data "ExtraDescription" ""
-data "TooltipDamageList" "DealDamage(1d10, Psychic);GainTemporaryHitPoints(7)"
-data "TooltipAttackSave" ""
-data "TooltipStatusApply" ""
-data "TooltipUpcastDescription" ""
-data "TooltipPermanentWarnings" "8892b93b-721f-4b99-b9b4-05ac25aadb33"
-data "CastSound" "Action_Cast_Item_MindTax"
-data "TargetSound" "Action_Impact_Item_MindTax"
-data "UseCosts" "BonusActionPoint:1"
-data "TargetEffect" "94d9a253-c1a4-4f5d-bb56-9c40611cfc00"
-
 new entry "Target_HideousLaughter_Amulet"
 type "SpellData"
 data "SpellType" "Target"
@@ -8837,4 +8783,3 @@ type "Weapon"
 using "WPN_ShadowBlade_5"
 data "RootTemplate" "3f683e32-25f6-484c-af70-15547d650671"
 data "DefaultBoosts" "WeaponEnchantment(5);WeaponProperty(Magical);CannotBeDisarmed()"
-

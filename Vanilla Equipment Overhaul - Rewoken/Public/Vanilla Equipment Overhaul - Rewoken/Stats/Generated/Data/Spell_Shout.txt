@@ -54,12 +54,3 @@ data "SpellProperties" "ApplyStatus(STEADY_RANGED_CROSSBOW,100,1)"
 data "DisplayName" "h6a4f4f5fgc930g4930gb4fcg169ba8ff1b8a;1"
 data "TooltipStatusApply" "ApplyStatus(STEADY_RANGED_CROSSBOW,100,1)"
 data "UseCosts" "Movement:7.5"
-
-
-
-
-
-
-
-
-

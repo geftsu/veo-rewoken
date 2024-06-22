@@ -23,27 +23,3 @@ new entry "Projectile_EldritchBlast"
 type "SpellData"
 using "Projectile_EldritchBlast"
 data "SpellSuccess" "DealDamage(1d10,Force,Magical);IF(HasStatus('REPELLING_BLAST_TRIGGER',context.Source)):Force(4.5)"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

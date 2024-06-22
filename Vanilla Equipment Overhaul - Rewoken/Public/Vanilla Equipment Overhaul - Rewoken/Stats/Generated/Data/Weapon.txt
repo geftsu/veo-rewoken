@@ -75,7 +75,7 @@ data "Damage Type" "Fire"
 data "Damage" "2d6"
 data "ValueUUID" "71191c11-966f-4c19-b4ee-eb36d31c4944"
 data "Rarity" "Rare"
-data "DefaultBoosts" "WeaponProperties(Magical)"
+data "DefaultBoosts" "WeaponProperty(Magical)"
 data "Boosts" "IF(Tagged('PLAYABLE',context.Source)):UnlockSpell(Shout_ArmorOfAvernus_3)"
 data "PassivesOnEquip" "MAG_Hidden_AvernusArmor"
 data "PersonalStatusImmunities" "WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER"
@@ -261,7 +261,7 @@ data "RootTemplate" "664ff469-770a-4597-9be2-506465e5486f"
 data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
 data "Rarity" "Legendary"
 data "DefaultBoosts" "WeaponEnchantment(3);WeaponProperty(Magical)"
-data "Boosts" "ActionResource(Movement, 6, 0)UnlockSpell(Projectile_MAG_BG_OfSpeed_LightCrossbow_BonusAttack)"
+data "Boosts" "ActionResource(Movement,6,0);UnlockSpell(Projectile_MAG_BG_OfSpeed_LightCrossbow_BonusAttack)"
 data "PassivesOnEquip" "MAG_Critical_CriticalSwiftness_Passive"
 data "Unique" "1"
 
@@ -294,15 +294,3 @@ data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);CannotBeDisar
 data "PassivesOnEquip" "MAG_ShieldThrow_Passive"
 data "Weapon Properties" "Finesse;Versatile;Melee;Dippable;Magical"
 data "Unique" "1"
-
-
-
-
-
-
-
-
-
-
-
-

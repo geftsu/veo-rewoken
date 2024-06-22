@@ -223,19 +223,3 @@ data "DisplayName" "h20b95e68g2f1eg4cddg826ag59ca98b8ff30;2"
 data "Description" "haec66743g30ebg488cg9271ge898cd09d503;3"
 data "Boosts" "WeaponDamage(1d6, Fire);IgnoreResistance(Fire,Resistant)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

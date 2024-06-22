@@ -42,13 +42,3 @@ data "NecroticResistance" "Resistant"
 data "PoisonResistance" "Resistant"
 data "Progressions" "8726b2c4-edc0-4905-b82f-60a4baba0733"
 data "Proficiency Group" "HeavyArmor;MartialWeapons;MediumArmor;SimpleWeapons;Shields;LightArmor"
-
-
-
-
-
-
-
-
-
-

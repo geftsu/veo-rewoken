@@ -5,20 +5,6 @@ data "StatsFunctors" "ApplyStatus(PASSIVE_REPELLING_BLAST,100,0)"
 data "ToggleOnFunctors" "ApplyStatus(REPELLING_BLAST_TRIGGER, 100, -1)"
 data "ToggleOffFunctors" "RemoveStatus(REPELLING_BLAST_TRIGGER)"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 new entry "MAG_Florrick_Lightning_OnCombat_Passive"
 type "PassiveData"
 data "DisplayName" "hb78b576bg5307g4775gb106gf4a796d4194b;1"
@@ -104,7 +90,7 @@ data "DisplayName" "hbad3d67ag132dg4ae6ga7e4g0735d0854bde;1"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "AttackedWithPassiveSourceWeapon()
-data "StatsFunctors" "Force(SELF, -1.5,OriginToEntity,Neutral)"
+data "StatsFunctors" "Force(SELF,-1.5,OriginToEntity,Neutral)"
 
 new entry "MAG_Obscured_DarkJusticiar_Passive"
 type "PassiveData"
@@ -157,10 +143,9 @@ type "PassiveData"
 data "DisplayName" "h42af740dg8164g449agb5c3g11d98c0af698;1"
 data "Description" "he26acab1g73c8g4c5dg868cg5b8d659f0395;1"
 data "DescriptionParams" "2"
-data "TooltipStatusApply" "ApplyStatus(RAGE_FRENZY,100,2)"
-data "StatFunctorContext" "OnStatusApplied"
+data "StatsFunctorContext" "OnStatusApplied"
 data "Conditions" "StatusId('ENLARGED')"
-data "StatFunctors" "IF(Tagged('DUERGARDWARF',context.Source) or Tagged('REALLY_DUERGARDWARF',context.Source)):ApplyStatus(SELF, RAGE_FRENZY,100,2)"
+data "StatsFunctors" "IF(Tagged('DUERGARDWARF',context.Source) or Tagged('REALLY_DUERGARDWARF',context.Source)):ApplyStatus(SELF,RAGE_FRENZY,100,2)"
 
 new entry "MAG_TheClover_Rearrangement_Passive"
 type "PassiveData"
@@ -233,7 +218,6 @@ type "PassiveData"
 data "DisplayName" "hf65ead72gb8bdg443fgb94cg61b5846d1c38;1"
 data "Description" "h2f75d3e8g3de3g49b3gb70eg4ffd381ebfc8;1"
 data "DescriptionParams" "DealDamage(Cause.CharismaModifier,Necrotic)"
-data "TooltipStatusApply" "ApplyStatus(FRIGHTENED,100,2)"
 data "Icon" "Action_Paladin_InquisitorsMight"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "IsAttack() and not IsMiss()"
@@ -264,7 +248,7 @@ data "Description" "h6c6b2a68g0e2fg4409g9934g732f77e52b83;1"
 data "DescriptionParams" "DealDamage(1d8, Necrotic)"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsSpell() and HasDamageDoneForType(DamageType.Necrotic)"
-data "StatsFunctors" "DamageBonus(1d8, Necrotic)"
+data "StatsFunctors" "DealDamage(1d8,Necrotic)"
 
 new entry "MAG_Oathbreaker_BootResist_Passive"
 type "PassiveData"
@@ -300,7 +284,7 @@ data "DescriptionParams" "Distance(6)"
 data "Properties" "OncePerTurn"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "SpellId('Projectile_TAD_Levitate') or SpellId('Projectile_Fly') or SpellId('Projectile_Fly_Spell')"
-data "StatsFunctors" "IF(Tagged('ILLITHID'),context.Source):ApplyStatus(SELF,FLY_MOVEMENT,100,1)"
+data "StatsFunctors" "IF(Tagged('ILLITHID',context.Source)):ApplyStatus(SELF,FLY_MOVEMENT,100,1)"
 
 new entry "MAG_Nightsong_SmiteOrb_Passive"
 type "PassiveData"
